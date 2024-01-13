@@ -7,7 +7,7 @@ if (args.Length <= 0)
 var pipeName = args[0];
 var streamSize = 1;
 
-Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.fff")} Please enter a message, and then press Enter.");
+Console.WriteLine("Start NamedPipeServer.");
 
 // Display the read text to the console
 string read = string.Empty;
